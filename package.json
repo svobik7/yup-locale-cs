@@ -1,6 +1,6 @@
 {
   "name": "yup-locale-cs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Czech translation for default yup messages",
   "main": "localeCS.js",
   "repository": {
