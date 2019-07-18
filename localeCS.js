@@ -1,8 +1,8 @@
 export let mixed = {
-  default: '${path} je neplatné',
-  required: '${path} je povinné',
-  oneOf: '${path} musí být jedna z následujících možností: ${values}',
-  notOneOf: '${path} nesmí být jedna z následujících možností: ${values}',
+  default: 'Hodnota v "${path}" je neplatná',
+  required: 'Pole "${path}" je povinné',
+  oneOf: '${path} musí obsahovat jednu z následujících hodnot: ${values}',
+  notOneOf: '${path} nesmí obsahovat žádnou z následujících hodnot: ${values}',
 };
 
 export let string = {
@@ -10,8 +10,8 @@ export let string = {
   min: '${path} musí obsahovat minimálně ${min} znaků',
   max: '${path} musí obsahovat maximálně ${max} znaků',
   matches: '${path} musí splňovat pravidlo: "${regex}"',
-  email: '${path} musí být e-mail adresa',
-  url: '${path} musí být URL adresa',
+  email: '${path} musí být platná emailová adresa',
+  url: '${path} musí být platná URL adresa',
   trim: '${path} nesmí obsahovat mezery',
   lowercase: '${path} musí obsahovat jen malá písmena',
   uppercase: '${path} musí obsahovat jen velká písmena',
