@@ -1,0 +1,16 @@
+{
+  "name": "yup-locale-cs",
+  "version": "0.0.1",
+  "description": "Czech translation for default yup messages",
+  "main": "localeCS.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svobik7/yup-locale-cs.git"
+  },
+  "author": "Jirka Svoboda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svobik7/yup-locale-cs/issues"
+  },
+  "homepage": "https://github.com/svobik7/yup-locale-cs#readme"
+}
