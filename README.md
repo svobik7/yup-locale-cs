@@ -12,7 +12,7 @@ Make sure to set your localized messages before any other calls to Yup, see [yup
 
 ```javascript
 import * as yup from 'yup';
-import yupLocaleDa from 'yup-locale-cs';
+import yupLocaleCs from 'yup-locale-cs';
 
 yup.setLocale(yupLocaleCs);
 
